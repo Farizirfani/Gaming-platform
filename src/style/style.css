@@ -23,15 +23,29 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'poppins',
+    sans-serif;
 }
 
-.canvas-home{
+.main-home{
     height: auto;
     background: rgb(39, 5, 64);
     background: linear-gradient(0deg, rgba(39, 5, 64, 1) 0%, rgba(41, 3, 80, 1) 100%);
-    font-family: 'poppins', sans-serif;
 }
 
 .container-home{
     height: auto;
+}
+
+.bg-active{
+    transition-duration: 1.6s;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.062);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.3px);
+}
+
+.bg-nonactive{
+    /* border-bottom: 0.1px solid rgba(255, 250, 250, 0.137) ; */
+    transition: 1s;
 }
