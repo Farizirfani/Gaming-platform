@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+/* color */
+.text-ungu-1{
+    color: #9921C3;
+}
+.bg-ungu-1{
+    color: #401f5e;
+}
+
+
+.bg-gradient-1{
+    background: linear-gradient(92.48deg, #7303C0 2.08%, #A31AD2 117.25%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.canvas-home{
+    height: auto;
+    background: rgb(39, 5, 64);
+    background: linear-gradient(0deg, rgba(39, 5, 64, 1) 0%, rgba(41, 3, 80, 1) 100%);
+    font-family: 'poppins', sans-serif;
+}
+
+.container-home{
+    height: auto;
+}
