@@ -49,3 +49,9 @@
     /* border-bottom: 0.1px solid rgba(255, 250, 250, 0.137) ; */
     transition: 1s;
 }
+
+.utility-screen{
+    background-image: url(/src/assets/image/fanny-small.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}

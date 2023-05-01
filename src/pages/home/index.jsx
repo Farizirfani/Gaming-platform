@@ -1,6 +1,7 @@
 import React from 'react'
 import JoyStick from '../../assets/image/joy_stick 1.png'
 import Spiderman from '../../assets/image/banner-spiderman.png'
+import Utility from '../../assets/image/banner-utility.png'
 
 import Trending from '../../components/trendings'
 import Navbar from '../../components/navbar'
@@ -42,9 +43,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="utility-home bg-slate-800 h-auto">
-            <h1>testing cuyh</h1>
+            <div className="utility-home h-screen">
+                
+            </div>
         </div>
     </div>
 )
