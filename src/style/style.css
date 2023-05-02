@@ -57,3 +57,10 @@
 .bg-home{
     background-color: rgba(0, 0, 0, 0.76);
 }
+
+
+/* recent project */
+
+.recent-project{
+    background: linear-gradient(148.9deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
+}

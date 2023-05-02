@@ -24,7 +24,7 @@ const Navbar = () => {
 
 return (
     <>
-        <div className={changeColor ? `bg-active flex justify-between top-0 sticky xl:h-20 xl:py-4 xl:px-6` : 'bg-nonactive flex justify-between top-0 sticky xl:h-20 xl:py-4 xl:px-6'} >
+        <div className={changeColor ? `bg-active flex justify-between top-0 sticky xl:h-20 xl:py-4 xl:px-6 z-50` : 'bg-nonactive flex justify-between top-0 sticky xl:h-20 xl:py-4 xl:px-6 z-50'} >
             <div className="logo text-white text-2xl font-bold">
                 <h1>Logo</h1>
             </div>
