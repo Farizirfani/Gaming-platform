@@ -1,10 +1,14 @@
 import React from 'react'
+
+// components
+import Navbar from '../../components/navbar'
+import Trending from './trendings'
+import Utility from './utility'
+
+// images
 import JoyStick from '../../assets/image/joy_stick 1.png'
 import Spiderman from '../../assets/image/banner-spiderman.png'
-import Utility from '../../assets/image/banner-utility.png'
 
-import Trending from '../../components/trendings'
-import Navbar from '../../components/navbar'
 
 const Home = () => {
   return (
@@ -43,8 +47,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="utility-home h-screen">
-                
+            <div>
+                <Utility />
             </div>
         </div>
     </div>

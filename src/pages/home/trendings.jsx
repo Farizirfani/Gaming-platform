@@ -1,8 +1,8 @@
 import React from "react";
-import hello from "../assets/image/hello-small.png"
-import stray from "../assets/image/stray-small.png"
-import fanny from "../assets/image/fanny-small.png"
-import empire from "../assets/image/empire-small.png"
+import hello from "../../assets/image/hello-small.png"
+import stray from "../../assets/image/stray-small.png"
+import fanny from "../../assets/image/fanny-small.png"
+import empire from "../../assets/image/empire-small.png"
 
 class Trending extends React.Component{
     render() {
@@ -14,7 +14,7 @@ class Trending extends React.Component{
                     <button className="text-white font-semibold">SEE ALL</button>
                 </div>
             </div>
-            <div className="flex justify-between py-7 w-full ">
+            <div className="flex xl:justify-between flex-wrap xl:gap-0 gap-4 py-7 w-full ">
                 <Testing image={empire} rate="40"/>
                 <Testing image={fanny} rate="50"/>
                 <Testing image={hello} rate="80"/>
