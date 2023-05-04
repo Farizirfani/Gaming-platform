@@ -56,6 +56,7 @@
 
 .utility-home {
     background-image: url(/src/assets/image/banner-utility.png);
+     background-repeat: repeat-x;
 }
 
 .bg-home{
@@ -78,4 +79,8 @@
 .main-about{
     height: auto;
     background: linear-gradient(179.5deg, #010101 -15.71%, #4F0C8D 99.57%);
+}
+
+.active{
+     border-bottom: 4px solid #9304f3;
 }

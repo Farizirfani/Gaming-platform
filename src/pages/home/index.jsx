@@ -27,17 +27,17 @@ const Home = () => {
         <div className="main-home">
             <Navbar />
             <div className="container-home xl:px-32">
-                <div className="flex justify-between">
-                    <div className='banner-home-1 w-1/3 content-center justify-center items-center'>
+                <div className="lg:flex lg:justify-between justify-center">
+                    <div className='banner-home-1 px-3 lg:w-1/2 lg:text-left text-center'>
                         <p className='text-ungu-1 font-extrabold text-lg tracking-tight xl:pb-2'>3D game dev</p>
-                        <h1 className='text-white font-bold text-5xl leading-relaxed'>Work that we produce for our clients</h1>
+                        <h1 className='text-white font-bold xl:text-5xl text-3xl xl:leading-relaxed'>Work that <br/> we produce for our clients</h1>
                         <p className='text-white xl:my-7'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero dolore nostrum ullam illo! Quo provident molestiae facere rem, molestias incidunt.</p>
                         <button className='text-white bg-gradient-1 p-3 rounded-full'>
                             Get more details
                         </button>
                     </div>
-                    <div className='banner-home-2 w-1/2  xl:justify-end xl:items-end content-end  flex z-1 -bottom-40'>
-                        <div className='w-4/6'>
+                    <div className='banner-home-2 xl:w-1/2 justify-center content-center items-center xl:justify-end flex'>
+                        <div className='xl:w-4/6 lg:w-3/6 w-0'>
                             <img src={JoyStick} alt="" />
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Home = () => {
                         <h1 className='text-white xl:text-start text-center my-2 font-semibold text-3xl'>Lorem ipsum</h1>
                         <p className='text-white xl:text-start text-center xl:p-0 p-2 xl:w-1/2 font-thin leading-loose lg:py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nam numquam dolor consequatur harum odit delectus accusamus officia voluptatem a.</p>
                     </div>
-                    <div className='lg:py-10'>
+                    <div className='xl:py-10 p-4'>
                         <img src={Spiderman} alt="" />
                     </div>
                 </div>
