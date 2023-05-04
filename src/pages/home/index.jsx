@@ -3,6 +3,7 @@ import React from 'react'
 // components
 import Navbar from '../../components/navbar'
 import Comment from '../../components/comments'
+import Footer from '../../components/footer'
 
 // home-component
 import Trending from './trendings'
@@ -49,8 +50,8 @@ const Home = () => {
                 </div>
                 <div className='lg:py-16'>
                     <div>
-                        <h1 className='text-white font-semibold text-3xl'>Lorem ipsum</h1>
-                        <p className='text-white w-1/2 font-thin leading-loose lg:py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nam numquam dolor consequatur harum odit delectus accusamus officia voluptatem a.</p>
+                        <h1 className='text-white xl:text-start text-center my-2 font-semibold text-3xl'>Lorem ipsum</h1>
+                        <p className='text-white xl:text-start text-center xl:p-0 p-2 xl:w-1/2 font-thin leading-loose lg:py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nam numquam dolor consequatur harum odit delectus accusamus officia voluptatem a.</p>
                     </div>
                     <div className='lg:py-10'>
                         <img src={Spiderman} alt="" />
@@ -88,9 +89,12 @@ const Home = () => {
                 <div className='flex justify-center content-center'>
                     <button className='text-white hover:bg-zinc-900 bg-zinc-800 py-2 px-4 rounded-lg'>SEE ALL</button>
                 </div>
-            <div>
-                <Comment />
+                <div>
+                    <Comment />
+                </div>
             </div>
+            <div>
+                <Footer />
             </div>
         </div>
     </div>

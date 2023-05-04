@@ -15,6 +15,10 @@
     color: #401f5e;
 }
 
+.bg-coklat{
+    color : #1C140F;
+}
+
 
 .bg-gradient-1{
     background: linear-gradient(92.48deg, #7303C0 2.08%, #A31AD2 117.25%);
@@ -63,4 +67,8 @@
 
 .recent-project{
     background: linear-gradient(148.9deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
+}
+
+.box-comment{
+    background-color: #1C140F;
 }

@@ -8,10 +8,10 @@ class Trending extends React.Component{
     render() {
         return <>
         <div className="xl:pt-20">
-            <div className="xl:flex flex-wrap justify-center content-center xl:justify-between  py-8">
-                <h1 className="text-white font-extrabold text-2xl">Currently Trending Games</h1>
-                <div className="bg-purple-900 px-5 py-3 rounded-lg">
-                    <button className="text-white font-semibold">SEE ALL</button>
+            <div className="xl:flex flex-wrap justify-center content-center xl:justify-between py-3 xl:py-8">
+                <h1 className="text-white xl:text-start text-center font-extrabold text-2xl">Currently Trending Games</h1>
+                <div className="flex m-0 xl:px-2 justify-center content-center ">
+                    <button className=" bg-purple-900 hover:bg-purple-950 text-white px-5 py-3 rounded-lg font-semibold">SEE ALL</button>
                 </div>
             </div>
             <div className="flex xl:justify-between justify-center content-center flex-wrap xl:gap-0 gap-4 py-7 w-full ">
