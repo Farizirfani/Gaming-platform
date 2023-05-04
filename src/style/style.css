@@ -72,3 +72,10 @@
 .box-comment{
     background-color: #1C140F;
 }
+
+/* abouts */
+
+.main-about{
+    height: auto;
+    background: linear-gradient(179.5deg, #010101 -15.71%, #4F0C8D 99.57%);
+}

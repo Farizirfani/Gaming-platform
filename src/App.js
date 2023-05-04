@@ -1,9 +1,9 @@
-import Home from './pages/home/index.jsx'
+import  Route from "../src/routes/index";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Route />
     </div>
   );
 }

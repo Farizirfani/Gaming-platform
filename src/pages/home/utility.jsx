@@ -53,7 +53,7 @@ const Icons = (props) => {
                 <h1 className='text-white xl:py-5 text-center'>{props.title}</h1>
             </div>
             <div className='flex justify-center'>
-                <i class="fa-solid fa-arrow-right text-center text-ungu-1"></i>
+                <i className="fa-solid fa-arrow-right text-center text-ungu-1"></i>
             </div>
         </div>
     )

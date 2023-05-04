@@ -32,7 +32,7 @@ const Testing = (props) => {
         <div className="w-52 rounded-lg">
             <img src={props.image} alt="trending/games" />
             <div className="flex justify-center p-5">
-                <i class="fa-solid fa-fire text-white text-lg"></i>
+                <i className="fa-solid fa-fire text-white text-lg"></i>
                 <p className="text-white px-5 text-lg">{props.rate}</p>
                 <h1 className="text-white text-lg">Followers</h1>
             </div>
