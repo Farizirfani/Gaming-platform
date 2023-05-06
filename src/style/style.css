@@ -56,7 +56,8 @@
 
 .utility-home {
     background-image: url(/src/assets/image/banner-utility.png);
-     background-repeat: repeat-x;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .bg-home{
@@ -83,4 +84,12 @@
 
 .active{
      border-bottom: 4px solid #9304f3;
+}
+
+.banner-stray {
+    background-image: url(/src/assets/image/banner-stray.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 450px;
+    max-height: 450px;
 }

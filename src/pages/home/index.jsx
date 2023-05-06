@@ -27,7 +27,7 @@ const Home = () => {
         <div className="main-home">
             <Navbar />
             <div className="container-home xl:px-32">
-                <div className="lg:flex lg:justify-between justify-center">
+                <div className="flex flex-wrap-reverse lg:justify-between justify-center">
                     <div className='banner-home-1 px-3 lg:w-1/2 lg:text-left text-center'>
                         <p className='text-ungu-1 font-extrabold text-lg tracking-tight xl:pb-2'>3D game dev</p>
                         <h1 className='text-white font-bold xl:text-5xl text-3xl xl:leading-relaxed'>Work that <br/> we produce for our clients</h1>
@@ -36,8 +36,8 @@ const Home = () => {
                             Get more details
                         </button>
                     </div>
-                    <div className='banner-home-2 xl:w-1/2 justify-center content-center items-center xl:justify-end flex'>
-                        <div className='xl:w-4/6 lg:w-3/6 w-0'>
+                    <div className='banner-home-2 xl:w-1/2 flex justify-center content-center items-center xl:justify-end '>
+                        <div className='xl:w-4/6 lg:w-2/6 w-1/2'>
                             <img src={JoyStick} alt="" />
                         </div>
                     </div>
