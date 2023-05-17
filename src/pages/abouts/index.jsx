@@ -4,7 +4,15 @@ import { Link } from 'react-router-dom'
 import Navbar from '../../components/navbar'
 
 import BannerStray from '../../assets/image/banner-stray.png'
+import Fanny from '../../assets/image/fanny.png'
+import Bill from '../../assets/image/Bill 1.png'
+import Baverly from '../../assets/image/Beverly 1.png'
+import Claudia from '../../assets/image/Claudia 1.png'
+import Avatar from '../../assets/image/Avatar 1.png'
+
+
 import WorkCard from './work_card'
+import TeamCard from './team_card'
 
 const About = () => {
   return (
@@ -32,7 +40,30 @@ const About = () => {
                 <WorkCard />
               </div>
             </div>
-          <h1 className='text-white'>Hello brow ini dari about us</h1>
+            <div className='bg-[#1C140F] h-auto lg:px-[136px] px-7'>
+              <div className='text-white py-[25px]'>
+                <i className="fa-solid fa-arrow-left text-2xl lg:text-[33px]"></i>
+              </div>
+              <div className='md:flex justify-center md:justify-between '>
+                <div className='w-full m-1'>
+                  <img className='' src={Fanny} alt="" />
+                </div>
+                <div className=' w-full xl:m-0 m-1 lg:w-4/5'>
+                  <p className='py-6 text-white font-thin opacity-800'>Lorem ipsum dolor sit amet.</p>
+                  <h1 className='text-white lg:text-2xl text-lg py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nulla! Lorem ipsum dolor sit amet.</h1>
+                  <p className='text-white font-thin md:py-3 py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet explicabo nulla alias itaque accusamus corporis veritatis repudiandae perspiciatis debitis placeat eos, tempore officia exercitationem, beatae quibusdam! Temporibus, quia quae cum maiores obcaecati consequuntur? Ad consequatur sunt beatae possimus ullam, quisquam modi in deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, iste.</p>
+                </div>
+              </div>
+            </div>
+            <div className='lg:py-20 lg:px-32'>
+              <h1 className='text-white'>Our Team</h1>
+              <div className='md:flex md:justify-evenly flex-wrap justify-center content-center items-center p-3'>
+                <TeamCard image={Bill} name="Bill" />
+                <TeamCard image={Baverly} name="Baverly"  />
+                <TeamCard image={Claudia} name="Claudia"  />
+                <TeamCard image={Avatar}  name="Avatar" />
+              </div>
+            </div>
         </div>
     </div>
   )
