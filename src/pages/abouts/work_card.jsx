@@ -15,13 +15,13 @@ const WorkCard = () => {
 
 const BoxWork = (props) =>{
     return(
-    <div className='py-[25px] px-4 bg-[#1d140e] rounded-xl sm:w-[378px]  w-auto h-auto m-2'>
+    <div className='lg:py-[25px] py-3 px-4 bg-[#1d140e] rounded-xl sm:w-[378px] sm:h-80  w-auto h-auto m-2'>
         <div className='my-[10px] text-center  w-1/2 '>
             <h1 className='text-white bg-indigo-950 rounded-md py-[2px] px-[4px]'>{props.title}</h1>
         </div>
         <div className='text-white p-2'>
             <h1 className='py-2 text-xl'>{props.header}</h1>
-            <h1 className='font-extralight py-3'>{props.body}</h1>
+            <h1 className='font-extralight md:py-3'>{props.body}</h1>
         </div>
     </div>
     )

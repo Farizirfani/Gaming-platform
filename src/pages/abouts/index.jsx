@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+import Comment from '../../components/comments'
 
 import BannerStray from '../../assets/image/banner-stray.png'
 import Fanny from '../../assets/image/fanny.png'
@@ -56,13 +58,19 @@ const About = () => {
               </div>
             </div>
             <div className='lg:py-20 lg:px-32'>
-              <h1 className='text-white'>Our Team</h1>
+              <h1 className='text-white lg:py-10 text-2xl font-bold'>Our Team</h1>
               <div className='md:flex md:justify-evenly flex-wrap justify-center content-center items-center p-3'>
-                <TeamCard image={Bill} name="Bill" />
-                <TeamCard image={Baverly} name="Baverly"  />
-                <TeamCard image={Claudia} name="Claudia"  />
-                <TeamCard image={Avatar}  name="Avatar" />
+                <TeamCard image={Bill} name="Bill" title="CTO" />
+                <TeamCard image={Baverly} name="Baverly"  title="CEO"/>
+                <TeamCard image={Claudia} name="Claudia"  title="Manager"/>
+                <TeamCard image={Avatar}  name="Avatar" title="HRD"/>
               </div>
+            </div >
+            <div className='lg:py-12 lg:px-32'>
+              <Comment />
+            </div>
+            <div>
+              <Footer />
             </div>
         </div>
     </div>
