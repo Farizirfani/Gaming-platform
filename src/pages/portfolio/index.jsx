@@ -6,7 +6,7 @@ import Navbar from '../../components/navbar'
 const Portfolio = () => {
   return (
     <div className='canvas-portofolio'>
-      <div className="main-portofolio  h-screen">
+      <div className="main-portofolio  h-auto">
         <Navbar />
         <div>
           <div className='text-center text-white'>
@@ -45,6 +45,9 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className=''>
+          <h1 className='text-white'>testing</h1>
         </div>
       </div>
     </div>
