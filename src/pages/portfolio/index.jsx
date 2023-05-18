@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// Components
 import Navbar from '../../components/navbar'
+
+// Image
+import BannerSpiderman from '../../assets/image/banner-spiderman.png'
+
 
 const Portfolio = () => {
   return (
@@ -11,7 +16,7 @@ const Portfolio = () => {
         <div>
           <div className='text-center text-white'>
             <p className='py-4 text-white'> <Link to='/'>Home</Link>   {'>'} <span className='text-purple-700'> Services </span></p>
-            <h1 className='text-3xl font-semibold md:py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium.</h1>
+            <h1 className='md:text-3xl p-3 font-semibold md:py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, praesentium.</h1>
             <p className='text-lg font-light md:py-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, iste.</p>
           </div>
           <div className='flex justify-center'>
@@ -46,8 +51,34 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className=''>
-          <h1 className='text-white'>testing</h1>
+        <div className='md:px-[110px] p-6'>
+          <div className='lg:flex justify-center lg:justify-between items-center md:py-14'>
+            <div className='max-w-[670px]'>
+              <img src={BannerSpiderman} alt="" />
+            </div>
+            <div className='text-white'>
+              <h1 className='lg:text-2xl p-2 font-semibold'>Lorem ipsum dolor sit amet. <br /> Lorem, ipsum dolor.</h1>
+              <p className='font-light p-2'>Lorem ipsum dolor sit amet, consectetur adipisicing <br /> elit. Suscipit, doloribus.</p>
+              <div className='flex-wrap p-2'>
+                <div className='flex content-center items-center'>
+                  <i className="fa-solid fa-check text-[#0b0308] bg-green-600 px-[4px] py-[3px] rounded-full"></i>
+                  <p className='p-2'>Lorem, ipsum dolor.</p>
+                </div>
+                <div className='flex content-center items-center'>
+                  <i className="fa-solid fa-check text-[#0b0308] bg-green-600 px-[4px] py-[3px] rounded-full"></i>
+                  <p className='p-2'>Lorem, ipsum dolor.</p>
+                </div>
+                <div className='flex content-center items-center'>
+                  <i className="fa-solid fa-check text-[#0b0308] bg-green-600 px-[4px] py-[3px] rounded-full"></i>
+                  <p className='p-2'>Lorem, ipsum dolor.</p>
+                </div>
+                <div className='flex content-center items-center'>
+                  <i className="fa-solid fa-check text-[#0b0308] bg-green-600 px-[4px] py-[3px] rounded-full"></i>
+                  <p className='p-2'>Lorem, ipsum dolor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
