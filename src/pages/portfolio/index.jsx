@@ -6,6 +6,9 @@ import Navbar from '../../components/navbar'
 
 // Image
 import BannerSpiderman from '../../assets/image/banner-spiderman.png'
+import BannerStray from '../../assets/image/banner-stray.png'
+import Fanny from '../../assets/image/fanny.png'
+import Hello from '../../assets/image/hello.png'
 
 
 const Portfolio = () => {
@@ -77,6 +80,39 @@ const Portfolio = () => {
                   <p className='p-2'>Lorem, ipsum dolor.</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className='lg:flex  justify-center lg:justify-between items-center md:py-14'>
+            <div className='text-white'>
+              <h1 className='text-2xl'>Lorem ipsum dolor, sit amet <br /> consectetur adipisicing elit. Nobis, earum!</h1>
+              <p className='w-1/2 md:py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam eaque perspiciatis quisquam alias praesentium voluptatibus ipsum vel quod. Voluptate! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, rerum.</p>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Ex quos possimus aliquam reprehenderit!</p>
+              <button className='bg-[#34085f] hover:bg-[#21093a] md:my-3 text-white py-3 px-6 rounded-lg'>Read more</button>
+            </div>
+            <div className='lg:max-w-[400px] w-auto'>
+              <img src={BannerStray} alt="" />
+            </div>
+          </div>
+          <div className='lg:flex justify-center lg:justify-between items-center md:py-14'>
+            <div  className='lg:max-w-[400px] w-auto' >
+              <img src={Fanny} alt="" />
+            </div>
+            <div className='text-white  lg:w-1/2'>
+              <h1 className='text-2xl'>Lorem ipsum dolor, sit amet <br /> consectetur adipisicing elit. Nobis, earum!</h1>
+              <p className=' md:py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam eaque perspiciatis quisquam alias praesentium voluptatibus ipsum vel quod. Voluptate! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, rerum.</p>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Ex quos possimus aliquam reprehenderit!</p>
+              <button className='bg-[#34085f] hover:bg-[#21093a] md:my-3 text-white py-3 px-6 rounded-lg'>Read more</button>
+            </div>
+          </div>
+          <div className='lg:flex  justify-center lg:justify-between items-center md:py-14'>
+            <div className='text-white'>
+              <h1 className='text-2xl'>Lorem ipsum dolor, sit amet <br /> consectetur adipisicing elit. Nobis, earum!</h1>
+              <p className='w-1/2 md:py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam eaque perspiciatis quisquam alias praesentium voluptatibus ipsum vel quod. Voluptate! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, rerum.</p>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Ex quos possimus aliquam reprehenderit!</p>
+              <button className='bg-[#34085f] hover:bg-[#21093a] md:my-3 text-white py-3 px-6 rounded-lg'>Read more</button>
+            </div>
+            <div>
+              <img className='lg:max-w-[400px] w-auto' src={Hello} alt="" />
             </div>
           </div>
         </div>
