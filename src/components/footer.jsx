@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <h1 className='text-center text-white font-thin p-3'>Copyright | All rights</h1>
+        <h1 className='text-center text-white font-thin p-3'>Copyright | All rights | design by <a className='text-[#7303c0]' href="https://www.figma.com/@sanoj_dilshan">@sanoj_dilshan</a></h1>
     </div>
   )
 }
