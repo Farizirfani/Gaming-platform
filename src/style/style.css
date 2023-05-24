@@ -64,7 +64,6 @@
   background-color: rgba(0, 0, 0, 0.76);
 }
 
-
 /* recent project */
 
 .recent-project {
@@ -100,6 +99,11 @@
 
 /* Portofolios */
 
-.main-portofolio {  
+.main-portofolio {
   background: linear-gradient(177.34deg, #050301 -30.15%, #120112 92.85%);
+}
+
+.neon {
+  background: #7303c0;
+  box-shadow: 0px 2px 35px #8c0fe2;
 }
