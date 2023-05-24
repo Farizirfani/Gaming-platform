@@ -39,15 +39,15 @@ return (
     <>
         <div className="mobile  top-0 sticky z-50">
             <div className={changeColor ? `bg-active ` : 'bg-nonactive'} >
-                <div className= {`navbar ${isTop ? '' : 'navbar-scrolled'} xl:flex xl:justify-between content-center px-8 py-6 transition-transform items-center`}>
+                <div className= {`navbar ${isTop ? '' : 'navbar-scrolled'} lg:flex lg:justify-between content-center px-8 py-6 transition-transform items-center`}>
                     <div className="logo text-white text-2xl font-bold  flex justify-between  items-center">
                         <h1>LOGO</h1>
-                        <button onClick={() => setIsOpen(!isOpen)} className='xl:hidden'>
+                        <button onClick={() => setIsOpen(!isOpen)} className='lg:hidden'>
                             <i class={` ${!isOpen ? 'block' : 'hidden'}  fa-solid fa-bars-staggered`}></i>
                             <i class={` ${isOpen ? 'block' : 'hidden'}  fa-solid fa-xmark`}></i>
                         </button>
                     </div>
-                    <div className={`${isOpen ? 'block' : 'hidden'}  xl:flex xl:justify-evenly gap-x-10 content-center items-center`}>
+                    <div className={`${isOpen ? 'block' : 'hidden'}  lg:flex lg:justify-evenly gap-x-10 content-center items-center`}>
                         <div >
                             <NavLink onClick={scrollToTop} className='flex justify-evenly text-white hover:text-purple-600' to='/'>
                                 Home
@@ -70,7 +70,7 @@ return (
                         </div> */}
                         <div className=''>
                             <div className='text-white bg-[#7303C0] px-[19px] py-2 rounded-md flex justify-evenly neon'>
-                                <a href="#a">Contact</a>
+                                <NavLink target='_blank' to={"https://github.com/Farizirfani"}>Contact</NavLink>
                             </div>
                         </div>
                     </div>

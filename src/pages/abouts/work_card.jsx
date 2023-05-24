@@ -3,7 +3,7 @@ import React from 'react'
 const WorkCard = () => {
   return (
   <>
-    <div className='md:flex flex-nowrap lg:justify-between md:justify-center py-3'>
+    <div className='md:flex flex-nowrap lg:justify-between md:justify-center py-4'>
         <BoxWork title='lorem' header='lorem'  body='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, fuga. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, et?' />
         <BoxWork title='lorem' header='lorem'  body='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, fuga.Lorem, sit amet consectetur adipisicing elit. Laudantium, et?' />
         <BoxWork title='lorem' header='lorem'  body='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, fuga. dolor,  adipisicing elit. Laudantium, et?' />

@@ -29,9 +29,9 @@ const About = () => {
                   <p className='md:w-1/2 w-auto font-light py-3'>Lorem ipsum dolor sit amet. Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quo, ab nostrum et totam eaque ullam beatae assumenda consequatur cupiditate?</p>
                   <button className='bg-gradient-1 xl:my-5 px-3 py-2 rounded-full'>Get in touch <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
-                <div className=''>
+                <div className='text-center flex justify-center content-center items-center'>
                   <div className='xl:w-auto w-fit xl:p-0 p-5'>
-                    <img src={BannerStray} alt="" />
+                    <img className='xl:w-auto w-[550px]' src={BannerStray} alt="" />
                   </div>
                 </div>
               </div>
@@ -43,21 +43,21 @@ const About = () => {
               </div>
             </div>
             <div className='bg-[#1C140F] h-auto lg:px-[136px] px-7'>
-              <div className='text-white py-[25px]'>
+              <div className='text-white xl:py-[25px] py-5'>
                 <i className="fa-solid fa-arrow-left text-2xl lg:text-[33px]"></i>
               </div>
-              <div className='md:flex justify-center md:justify-between '>
-                <div className='w-full m-1'>
+              <div className='xl:flex content-center items-center justify-center xl:justify-between '>
+                <div className='w-full m-1 justify-center text-center flex'>
                   <img className='' src={Fanny} alt="" />
                 </div>
-                <div className=' w-full xl:m-0 m-1 lg:w-4/5'>
+                <div className='justify-center content-center w-full xl:m-0 m-1 lg:w-4/5 py-3'>
                   <p className='py-6 text-white font-thin opacity-800'>Lorem ipsum dolor sit amet.</p>
                   <h1 className='text-white lg:text-2xl text-lg py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nulla! Lorem ipsum dolor sit amet.</h1>
                   <p className='text-white font-thin md:py-3 py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet explicabo nulla alias itaque accusamus corporis veritatis repudiandae perspiciatis debitis placeat eos, tempore officia exercitationem, beatae quibusdam! Temporibus, quia quae cum maiores obcaecati consequuntur? Ad consequatur sunt beatae possimus ullam, quisquam modi in deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, iste.</p>
                 </div>
               </div>
             </div>
-            <div className='lg:py-20 lg:px-32'>
+            <div className='lg:py-20 lg:px-32 px-7'>
               <h1 className='text-white lg:py-10 text-2xl font-bold'>Our Team</h1>
               <div className='md:flex md:justify-evenly flex-wrap justify-center content-center items-center p-3'>
                 <TeamCard image={Bill} name="Bill" title="CTO" />
@@ -66,7 +66,7 @@ const About = () => {
                 <TeamCard image={Avatar}  name="Avatar" title="HRD"/>
               </div>
             </div >
-            <div className='lg:py-12 lg:px-32'>
+            <div className='lg:py-12 lg:px-32 px-7 py-2'>
               <Comment />
             </div>
             <div>
